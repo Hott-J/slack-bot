@@ -1,0 +1,37 @@
+spring:
+  messages:
+    basename: errors
+server:
+  port: 8081
+
+slack:
+  token: xoxb-1630331899815-3423143929168-DRDWHKIBqy8grDVaaE7syGCx
+  channel:
+    stage: C035511GZNU
+    test: C034TH2N6HX
+  stageUrl: https://hooks.slack.com/services/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
+  testUrl: https://hooks.slack.com/services/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
+
+restaurant:
+  joyceMap: https://map.naver.com/v5/search/%EC%A1%B0%EC%9D%B4%EC%8A%A4%20%ED%82%A4%EC%B9%9C/place/1212502476?placePath=%3Fentry=pll%26from=nx%26fromNxList=true
+  joyceMenu: https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211003_169%2F1633189960374pmaKz_JPEG%2FAc1lYn7OYyEcad_fTa_NxIWD.JPG.jpg
+  joycePhoneNum: 031-717-8698
+  joyceImage: https://ifh.cc/g/5Lt1X8.jpg
+  joyceAddress: 경기도 성남시 분당구 성남대로43번길 10 KR 104호
+
+  gyudonMap: https://map.naver.com/v5/entry/place/1050116990?c=14149431.3685849,4486746.8381133,15,0,0,0,dh&placePath=%2Fphoto%3F
+  gyudonMenu: https://map.naver.com/v5/entry/place/1050116990?c=14149661.8783030,4486703.8470959,15,0,0,0,dh&placePath=%2Fmenu%2Flist
+  gyudonPhoneNum: 031-782-9000
+  gyudonImage: https://ifh.cc/g/HaPplB.png
+  gyudonAddress: 경기도 성남시 분당구 성남대로 51 1층 104호
+
+  kimbabKingMap: https://map.naver.com/v5/search/%EC%98%A4%EB%A6%AC%EC%97%AD%20%EA%B9%80%EB%B0%A5%ED%82%B9/place/36910252?c=14149661.8783030,4486703.8470959,15,0,0,0,dh
+  kimbabKingPhoneNum: 031-719-8507
+  kimbabKingImage:
+  kimbabKingAddress: 경기 성남시 분당구 성남대로43번길 10 하나EZ타워
+
+emoji:
+  locationMarker: https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png
+
+
+
